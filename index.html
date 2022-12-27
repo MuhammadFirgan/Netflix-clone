@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Clone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        * {
+            font-family: Montserrat, 'sans-serif';
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+
+    
+    <section>
+        <nav class="mt-6 mx-5 py-2 flex justify-between items-center bg-transparent md:mx-10 md:p-8 md:mt-2 md:justify-between">
+            <div>
+                <img src="img/logo.png" class="w-24 md:w-32" alt="">
+            </div>
+            <div>
+                <select id="language" class="p-1 mx-3 text-sm text-white border-solid border-2 border-slate-200 rounded bg-transparent md:px-1 md:py-[6px] md:mx-7">
+                    <option value="Bahasa Indonesia" class="bg-slate-600">Bahasa Indonesia</option>
+                    <option value="Bahasa Indonesia" class="bg-slate-600">English</option>
+                </select>
+                <a href="" class="p-[6px] text-sm text-white rounded bg-red-600 md:px-3 md:py-2 md:text-base">Masuk</a>
+            </div>
+        </nav>
+        <div class="mt-[-73px] w-full h-screen bg-[linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('/img/header.jpg')] bg-cover md:mt-[-108px]">
+            <div class="pt-36 mx-auto max-w-sm text-center text-white md:max-w-3xl md:pt-52">
+
+                <h1 class="text-3xl font-semibold md:text-5xl">Film, acara TV tak terbatas, dan lebih banyak lagi</h1>
+                <p class="py-4 font-medium md:text-lg">Tonton di mana pun. Batalkan kapan pun.</p>
+                <p class="font-medium">Siap menonton? Masukkan email untuk membuat atau memulai lagi keanggotaanmu.</p>
+                <div class="mt-2 flex flex-wrap justify-center md:mt-4">
+                    <input type="text" placeholder="alamat email...." class="w-11/12 px-2 py-3 text-black focus:outline-none focus:border-red-600 focus:ring-1 focus:ring-red-600 border-red-600 md:py-4 md:px-6 md:w-7/12">
+                    <button class="mt-2 px-4 py-2 bg-red-600 md:mt-0 md:px-6 md:text-2xl md:w-32">Mulai</button>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+    
+</body>
+</html>
